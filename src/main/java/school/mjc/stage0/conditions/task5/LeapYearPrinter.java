@@ -9,8 +9,10 @@ public class LeapYearPrinter {
                 break;
             case 1900:
                 System.out.println("not leap");
+                break;
             default:
                 System.out.println("out of range");
+                break;
         }
     }
 }
